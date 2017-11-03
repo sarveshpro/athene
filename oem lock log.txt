@@ -1,0 +1,207 @@
+
+C:\Program Files (x86)\Minimal ADB and Fastboot>fastboot oem lock begin
+...
+(bootloader) WARNING: This command erases all user data.
+(bootloader) Please re-run this command to continue.
+OKAY [  0.010s]
+finished. total time: 0.010s
+
+C:\Program Files (x86)\Minimal ADB and Fastboot>fastboot oem lock begin
+...
+(bootloader) Flash valid Android images now
+(bootloader) Then re-run this command to lock
+OKAY [  0.017s]
+finished. total time: 0.017s
+
+C:\Program Files (x86)\Minimal ADB and Fastboot>fastboot flash partition gpt.bin
+target reported max download size of 536870912 bytes
+sending 'partition' (32 KB)...
+OKAY [  0.005s]
+writing 'partition'...
+(bootloader) Flashing primary GPT image...
+(bootloader) Flashing backup GPT image...
+OKAY [  0.117s]
+finished. total time: 0.125s
+
+C:\Program Files (x86)\Minimal ADB and Fastboot>fastboot flash bootloader bootloader.img
+target reported max download size of 536870912 bytes
+sending 'bootloader' (3651 KB)...
+OKAY [  0.120s]
+writing 'bootloader'...
+(bootloader) validating: bootloader.default.xml ...
+(bootloader) will pass: flash:aboot
+(bootloader) will pass: flash:rpm
+(bootloader) will pass: flash:tz
+(bootloader) will pass: flash:hyp
+(bootloader) will pass: flash:cmnlib
+(bootloader) will pass: flash:keymaster
+(bootloader) will pass: flash:sbl1
+(bootloader) committing: bootloader.default.xml ...
+(bootloader) - flashing 'emmc_appsboot.mbn' to 'aboot'
+(bootloader) - flashing 'rpm.mbn' to 'rpm'
+(bootloader) - flashing 'tz.mbn' to 'tz'
+(bootloader) - flashing 'hyp.mbn' to 'hyp'
+(bootloader) - flashing 'cmnlib.mbn' to 'cmnlib'
+(bootloader) - flashing 'keymaster.mbn' to 'keymaster'
+(bootloader) - flashing 'sbl1.mbn' to 'sbl1'
+OKAY [  0.585s]
+finished. total time: 0.711s
+
+C:\Program Files (x86)\Minimal ADB and Fastboot>fastboot flash logo logo.bin
+target reported max download size of 536870912 bytes
+sending 'logo' (2186 KB)...
+OKAY [  0.078s]
+writing 'logo'...
+OKAY [  0.079s]
+finished. total time: 0.169s
+
+C:\Program Files (x86)\Minimal ADB and Fastboot>fastboot flash boot boot.img
+target reported max download size of 536870912 bytes
+sending 'boot' (16384 KB)...
+OKAY [  0.533s]
+writing 'boot'...
+OKAY [  0.358s]
+finished. total time: 0.902s
+
+C:\Program Files (x86)\Minimal ADB and Fastboot>fastboot flash recovery recovery.img
+target reported max download size of 536870912 bytes
+sending 'recovery' (16484 KB)...
+OKAY [  0.543s]
+writing 'recovery'...
+OKAY [  0.375s]
+finished. total time: 0.926s
+
+C:\Program Files (x86)\Minimal ADB and Fastboot>fastboot flash dsp adspso.bin
+target reported max download size of 536870912 bytes
+sending 'dsp' (16384 KB)...
+OKAY [  0.526s]
+writing 'dsp'...
+OKAY [  0.274s]
+finished. total time: 0.803s
+
+C:\Program Files (x86)\Minimal ADB and Fastboot>fastboot flash oem oem.img
+target reported max download size of 536870912 bytes
+sending 'oem' (96490 KB)...
+OKAY [  3.046s]
+writing 'oem'...
+OKAY [  7.342s]
+finished. total time: 10.395s
+
+C:\Program Files (x86)\Minimal ADB and Fastboot>fastboot flash system system.img_sparsechunk.0
+target reported max download size of 536870912 bytes
+sending 'system' (261013 KB)...
+OKAY [  8.220s]
+writing 'system'...
+OKAY [  6.350s]
+finished. total time: 14.583s
+
+C:\Program Files (x86)\Minimal ADB and Fastboot>fastboot flash system system.img_sparsechunk.1
+target reported max download size of 536870912 bytes
+sending 'system' (250842 KB)...
+OKAY [  7.898s]
+writing 'system'...
+OKAY [  7.081s]
+finished. total time: 14.981s
+
+C:\Program Files (x86)\Minimal ADB and Fastboot>fastboot flash system system.img_sparsechunk.2
+target reported max download size of 536870912 bytes
+sending 'system' (254485 KB)...
+OKAY [  8.018s]
+writing 'system'...
+OKAY [  7.924s]
+finished. total time: 15.952s
+
+C:\Program Files (x86)\Minimal ADB and Fastboot>fastboot flash system system.img_sparsechunk.3
+target reported max download size of 536870912 bytes
+sending 'system' (247298 KB)...
+OKAY [  7.793s]
+writing 'system'...
+OKAY [  9.025s]
+finished. total time: 16.831s
+
+C:\Program Files (x86)\Minimal ADB and Fastboot>fastboot flash system system.img_sparsechunk.4
+target reported max download size of 536870912 bytes
+sending 'system' (260398 KB)...
+OKAY [  8.216s]
+writing 'system'...
+OKAY [  6.299s]
+finished. total time: 14.527s
+
+C:\Program Files (x86)\Minimal ADB and Fastboot>fastboot flash system system.img_sparsechunk.5
+target reported max download size of 536870912 bytes
+sending 'system' (262041 KB)...
+OKAY [  8.262s]
+writing 'system'...
+OKAY [ 10.328s]
+finished. total time: 18.597s
+
+C:\Program Files (x86)\Minimal ADB and Fastboot>fastboot flash system system.img_sparsechunk.6
+target reported max download size of 536870912 bytes
+sending 'system' (261941 KB)...
+OKAY [  8.262s]
+writing 'system'...
+OKAY [ 13.427s]
+finished. total time: 21.702s
+
+C:\Program Files (x86)\Minimal ADB and Fastboot>fastboot flash system system.img_sparsechunk.7
+target reported max download size of 536870912 bytes
+sending 'system' (82497 KB)...
+OKAY [  2.613s]
+writing 'system'...
+OKAY [  1.936s]
+finished. total time: 4.564s
+
+C:\Program Files (x86)\Minimal ADB and Fastboot>fastboot flash modem NON-HLOS.bin
+target reported max download size of 536870912 bytes
+sending 'modem' (76954 KB)...
+OKAY [  2.428s]
+writing 'modem'...
+OKAY [  1.303s]
+finished. total time: 3.734s
+
+C:\Program Files (x86)\Minimal ADB and Fastboot>fastboot erase modemst1
+erasing 'modemst1'...
+OKAY [  0.040s]
+finished. total time: 0.042s
+
+C:\Program Files (x86)\Minimal ADB and Fastboot>fastboot erase modemst2
+erasing 'modemst2'...
+OKAY [  0.042s]
+finished. total time: 0.043s
+
+C:\Program Files (x86)\Minimal ADB and Fastboot>fastboot flash fsg fsg.mbn
+target reported max download size of 536870912 bytes
+sending 'fsg' (2032 KB)...
+OKAY [  0.069s]
+writing 'fsg'...
+OKAY [  0.076s]
+finished. total time: 0.148s
+
+C:\Program Files (x86)\Minimal ADB and Fastboot>fastboot erase cache
+erasing 'cache'...
+OKAY [  0.061s]
+finished. total time: 0.063s
+
+C:\Program Files (x86)\Minimal ADB and Fastboot>fastboot erase userdata
+erasing 'userdata'...
+OKAY [  7.151s]
+finished. total time: 7.154s
+
+C:\Program Files (x86)\Minimal ADB and Fastboot>fastboot erase customize
+erasing 'customize'...
+OKAY [  0.024s]
+finished. total time: 0.026s
+
+C:\Program Files (x86)\Minimal ADB and Fastboot>fastboot erase clogo
+erasing 'clogo'...
+OKAY [  0.025s]
+finished. total time: 0.026s
+
+C:\Program Files (x86)\Minimal ADB and Fastboot>fastboot oem lock
+...
+(bootloader) Lock complete! Flash signed images after reboot if needed
+OKAY [  3.776s]
+finished. total time: 3.779s
+
+C:\Program Files (x86)\Minimal ADB and Fastboot>fastboot reboot
+< waiting for device >

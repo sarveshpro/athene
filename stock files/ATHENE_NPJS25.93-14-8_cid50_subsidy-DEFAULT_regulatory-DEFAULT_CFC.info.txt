@@ -1,0 +1,21 @@
+BUILD REQUEST INFO:
+SW Version: athene-user 7.0 NPJS25.93-14-8 8 release-keysM8952_70030.25.03.62.01R
+MBM Version: B1.06
+Modem Version: M8952_70030.25.03.62.01R
+FSG Version: FSG-8952-05.30.01
+Build Fingerprint: motorola/athene/athene:7.0/NPJS25.93-14-8/8:user/release-keys
+
+VERSION INFO FOUND UNDER 'ABOUT PHONE' SCREEN:
+System Version: 25.211.8.athene.retail.en.US
+Model number: Moto G (4)
+Android Version: 7.0
+Baseband Version: M8952_70030.25.03.62.01R
+Build Number: athene-user 7.0 NPJS25.93-14-8 8 release-keys
+Build Date: Thu Jun  8 05:01:36 CDT 2017
+
+OTHER MISC VERSION INFO:
+Subsidy Lock Config: slcf_rev_d_default_v1.0.nvm
+Regulatory Info (eLabel): regulatory_info_default.png
+Blur Version: Blur_Version.25.211.8.athene.retail.en.US
+Version when read from CPV: athene-user 7.0 NPJS25.93-14-8 8 release-keys
+
